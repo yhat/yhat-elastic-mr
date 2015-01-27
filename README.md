@@ -17,9 +17,9 @@ Results can be downloaded using the `sync.sh` script.
 ### Requirements
 
 - `awscli`: `pip install awscli`
-- `scikit-learn` (to build the model)
-- `pandas` (to build the model)
-- `factual-python-client` (to source data)
+- `scikit-learn`: (to build the model)
+- `pandas`: (to build the model)
+- `factual-api`*optional*: (to source addditional data)`pip install factual-api`
 
 ### Getting Started
 
