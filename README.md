@@ -9,6 +9,7 @@ line-delimited JSON that looks like this:
 
 ```
 {"text": "Aranciata Orange", "guesses": {"Frozen Foods": 0.30769230769230771, "Hair Shampoo": 0, "Pet Care": 0, "Soda": 0.69230769230769229}}
+{"text": "Tonic Water. Contains Quinine", "guesses": {"Frozen Foods": 0.23076923076923078, "Hair Shampoo": 0, "Pet Care": 0.15384615384615385, "Soda": 0.61538461538461542}}
 ```
 
 Results can be downloaded using the `sync.sh` script.
