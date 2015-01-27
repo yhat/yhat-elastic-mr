@@ -17,13 +17,13 @@ if [[ "$1" == "up" ]]; then
     s3cmd put logs/* s3://yhat-hadoop-example/logs/
 elif [[ "$1" == "download" ]]; then
     if [[ "$2" == "logs" ]]; then
-        s3cmd sync s3://yhat-hadoop-demo/logs/ ./logs
+        s3cmd sync s3://yhat-hadoop-example/logs/ ./logs
     elif [[ "$2" == "output" ]]; then
-        s3cmd sync s3://yhat-hadoop-demo/output/ ./output
+        s3cmd sync s3://yhat-hadoop-example/output/ ./output
     elif [[ "$2" == "all" ]]; then
-        s3cmd sync s3://yhat-hadoop-demo/ .
+        s3cmd sync s3://yhat-hadoop-example/ .
     else
-        echo "not a valid second argument"
+        echo "not a valid second argument (logs|output|all)"
     fi
 else
   echo "sync.sh"
