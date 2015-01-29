@@ -1,0 +1,8 @@
+pip install scikit-learn==0.14.1
+pip install scipy==0.13.3
+pip install pandas==0.14.1
+pip install numpy==1.8.2
+pip install patsy==0.3.0
+pip install nltk==2.0.4
+pip install statsmodels==0.5.0
+pip install -U yhat
