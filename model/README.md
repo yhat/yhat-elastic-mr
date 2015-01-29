@@ -1,8 +1,8 @@
 
 ### Getting more data (optional)
 ```
-$ export FACTUAL_KEY=""
-$ export FACTUAL_SECRET=""
+$ export FACTUAL_KEY="" # your key
+$ export FACTUAL_SECRET="" # your secret
 $ python get_data.py
 ```
 
