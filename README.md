@@ -23,11 +23,10 @@ Results can be downloaded using the `sync.sh` script.
 
 ### Getting Started
 
+make sure all of your data is uploaded onto S3
+if you're setting things up on your own S3 account, you'll need to
+do a find/replace on "yhat-hadoop-example" with the name of your own
 ```
-# make sure all of your data is uploaded onto S3
-# if you're setting things up on your own S3 account, you'll need to
-# do a find/replace on "yhat-hadoop-example" with the name of your own
-# bucket
 $ ./sync.sh up
 $ ./spin-up-server.sh
 {
