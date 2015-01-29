@@ -1,7 +1,8 @@
 
 ### Getting more data (optional)
 ```
-$ source config
+$ export FACTUAL_KEY=""
+$ export FACTUAL_SECRET=""
 $ python get_data.py
 ```
 
