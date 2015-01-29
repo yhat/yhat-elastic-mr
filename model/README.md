@@ -1,3 +1,5 @@
+# Product Classification Model
+Please note that this model isn't very good, it's just for demo purposes ;)
 
 ### Getting more data (optional)
 ```
