@@ -16,6 +16,7 @@ Results can be downloaded using the `sync.sh` script.
 
 ### Requirements
 
+- `s3cmd`: (to upload data to S3) `brew install s3cmd` or http://s3tools.org/s3cmd
 - `awscli`: (to use EMR) `pip install awscli`
 - `scikit-learn`: (to build the model) `pip install scikit-learn==0.14.1`
 - `pandas`: (to build the model) `pip install pandas==0.14.1`
