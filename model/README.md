@@ -1,6 +1,7 @@
 
 ### Getting more data (optional)
 ```
+# https://www.factual.com/keys
 $ export FACTUAL_KEY="" # your key
 $ export FACTUAL_SECRET="" # your secret
 $ python get_data.py

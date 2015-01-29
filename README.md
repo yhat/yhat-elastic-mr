@@ -16,10 +16,10 @@ Results can be downloaded using the `sync.sh` script.
 
 ### Requirements
 
-- `awscli`: `pip install awscli`
-- `scikit-learn`: (to build the model)
-- `pandas`: (to build the model)
-- `factual-api`*optional*: (to source addditional data)`pip install factual-api`
+- `awscli`: (to use EMR) `pip install awscli`
+- `scikit-learn`: (to build the model) `pip install scikit-learn==0.14.1`
+- `pandas`: (to build the model) `pip install pandas==0.14.1`
+- `factual-api`*optional*: (to source addditional data) `pip install factual-api`
 
 ### Getting Started
 
