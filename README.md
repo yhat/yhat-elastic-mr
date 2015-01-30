@@ -28,6 +28,10 @@ Results can be downloaded using the `sync.sh` script.
 your own S3 account, you'll need to do a find/replace on "yhat-hadoop-example" 
 with the name of your own bucket.*
 ```
+# replace your YHAT_USERNAME and YHAT_APIKEY in model/classifier.py
+$ cd model
+$ python classifier.py
+$ cd ..
 $ ./sync.sh up
 $ ./spin-up-server.sh
 {
